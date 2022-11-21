@@ -1,0 +1,612 @@
+@media(max-width:1024px){
+    body{
+        background-image: url(../images/bg-mobile.png);
+        background-size: 100%;
+        background-position: 0px 0px;
+    }
+
+    .logo{
+        transform: translate(18%, 50%);
+        width: 60%;
+        height: 325px;
+        border-radius: 25px 212px 25px 25px;
+        padding: 82px;
+    }
+
+    .fylo{
+        width: 382px;
+        height: 120px;
+        padding-bottom: 50px;
+    }
+
+    .icons svg{
+        width: 69px;
+        height: 70px;
+        padding: 30px;
+        margin-right: 45px;
+        border-radius: 30px;
+        margin-left: 0;
+    }
+
+    .storage{
+        transform: translate(18%, 73%);
+        width: 60.5%;
+        height: 210px;
+        border-radius: 25px;
+        padding: 80px;
+    }
+
+    p{
+        font-size: 2.1em;
+        margin-left: 26px;
+    }
+
+    .line{
+        border-radius: 25px;
+        height: 36px;
+        width: 99%;
+        padding: 6px;
+        margin-top: 40px;
+        margin-bottom: 40px;    
+    }
+
+    .inline{
+        border-radius: 25px;
+        height: 36px;
+        width: 83%;
+    }
+
+    .inline::after{
+        content: "";
+        width: 24px;
+        height: 24px;
+        top: 172px;
+        right: 188px;
+    }
+
+    .numbers{
+        font-size: 2.2em;
+        margin-right: 0px;
+    }
+
+    .bite{
+        margin-left: 5px;
+    }
+
+    .massege{
+        border-radius: 20px;
+        transform: translate(337px, 222px);
+        width: 330px;
+        height: 126px;
+    }
+
+    .massege h2{
+        font-size: 4.5em;
+    }
+
+    .massege::after{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media(max-width: 966px){
+
+    .logo{
+        transform: translate(18%, 40%);
+    }
+
+    .storage{
+        transform: translate(18%, 65%);
+    }
+
+    .inline::after{
+        top: 170px;
+        right: 182px;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+    .massege{
+        transform: translate(318px, 222px);
+    }
+}
+
+@media(max-width: 922px){
+    .inline::after{
+        top: 169px;
+        right: 177px;
+    }
+
+    p{
+        font-size: 1.9em;
+    }
+
+    .massege{
+        transform: translate(297px, 205px);
+    }
+
+}
+
+@media(max-width:878px){
+    p{
+        font-size: 1.8em;
+    }
+
+    .inline::after{
+        top: 166px;
+        right: 173px;
+    }
+
+    .massege{
+        width: 307px;
+    }
+}
+
+@media(max-width:835px){
+
+    .logo{
+        transform: translate(15%, 40%);
+    }
+
+    .storage{
+        transform: translate(15%, 65%);
+    }
+
+    p{
+        font-size: 1.7em;
+    }
+
+    .inline::after{
+        top: 165px;
+        right: 167px;
+    }
+
+    .massege{
+        width: 290px;
+        transform: translate(267px, 205px);
+    }
+
+    .massege h2{
+        font-size: 4em;
+    }
+}
+
+@media(max-width:790px){
+    p{
+        font-size: 1.6em;
+    }
+
+    .inline::after{
+        top: 162px;
+        right: 163px;
+    }
+}
+
+@media(max-width:768px){
+    .logo{
+        transform: translate(13%, 27%);
+    }
+
+    .storage{
+        transform: translate(13%, 55%);
+        height: 160px;
+    }
+
+    p{
+        font-size: 1.6em;
+        margin-left: 20px;
+    }
+
+    .line{
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .inline::after{
+        top: 150px;
+        right: 162px;
+    }
+
+    .massege{
+        transform: translate(237px, 144px);
+        width: 274px;
+        height: 111px;
+    }
+
+    .massege h2{
+        font-size: 3.2em;
+    }
+}
+
+@media(max-width: 736px){
+    .logo{
+        transform: translate(13%, 19%);
+        height: 278px;
+    }
+
+    .fylo{
+        width: 353px;
+        height: 104px;
+        padding-bottom: 43px;
+    }
+
+    .icons svg{
+        width: 55px;
+        height: 55px;
+        margin-right: 41px;
+    }
+
+    .storage{
+        transform: translate(13%, 37%);
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    .inline::after{       
+    top: 150px;
+    right: 156px;
+    }
+
+    .massege{
+        transform: translate(237px, 77px);
+        width: 247px;
+        height: 100px;
+    }
+    
+}
+
+@media(max-width: 692px){
+    .logo{
+        transform: translate(11%, 39%);
+    }
+
+    .storage{
+        transform: translate(11%, 66%);
+    }
+
+    p{
+        font-size: 1.4em;
+    }
+
+    .inline::after{       
+        top: 147px;
+        right: 152px;
+    }
+
+    .massege{
+        transform: translate(237px, 172px);
+        width: 228px;
+        height: 91px;
+    }
+
+    .massege h2{
+        font-size: 2.8em;
+    }
+
+    .numbers{
+        font-size: 1.9em;
+        margin-right: 0px;
+    }
+
+}
+
+@media(max-width: 652px){
+    .logo{
+        width: 60%;
+        height: 259px;
+        padding: 60px;
+        transform: translate(14%, 39%);
+    }
+
+    .storage{
+        transform: translate(14%, 64%);
+        height: 160px;
+        width: 60%;
+        padding: 60px;
+    }
+
+    .fylo{
+        width: 315px;
+        height: 87px;
+        padding-bottom: 37px;
+    }
+
+    .icons svg{
+        width: 40px;
+        height: 40px;
+        margin-right: 28px;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
+
+    .inline::after{
+        top: 125px;
+        right: 127px;
+    }
+
+    .massege{
+        transform: translate(225px, 153px);
+        width: 176px;
+        height: 70px;
+    }
+
+    .massege h2{
+        font-size: 2.5em;
+    }
+}
+
+@media(max-width: 609px){
+    .logo{
+        width: 48%;
+        height: 196px;
+        transform: translate(25%, 39%);
+        border-radius: 25px 200px 25px 25px;
+    }
+
+    .storage{
+        transform: translate(25%, 71%);
+        height: 130px;
+        width: 54.5%;
+        padding: 40px;
+    }
+
+    .fylo{
+        width: 242px;
+        height: 72px;
+        padding-bottom: 27px;
+    }
+
+    .icons svg{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        padding: 18px;
+        border-radius: 17px;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    .line{
+        border-radius: 25px;
+        height: 28px;
+        width: 97%;
+        padding: 5px;
+        margin-top: 23px;
+        margin-bottom: 15px;   
+    }
+
+    .inline{
+        height: 28px;
+        width: 81%;
+    }
+
+    .inline::after{
+        top: 93px;
+        right: 108px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .numbers{
+        font-size: 1.3em;
+    }
+
+    .massege{
+        transform: translate(204px, 130px);
+    }
+
+}
+
+@media(max-width: 573px){
+    .logo{
+        width: 48%;
+        height: 196px;
+        transform: translate(25%, 39%);
+        border-radius: 25px 200px 25px 25px;
+    }
+
+    .storage{
+        transform: translate(25%, 71%);
+        height: 130px;
+        width: 54.5%;
+        padding: 40px;
+    }
+
+    .fylo{
+        margin-left: 0px;
+    }
+
+    .icons svg{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        padding: 18px;
+        border-radius: 17px;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .line{
+        border-radius: 25px;
+        height: 28px;
+        width: 97%;
+        padding: 5px;
+        margin-top: 23px;
+        margin-bottom: 15px;   
+    }
+
+    .inline::after{
+        top: 90px;
+        right: 105px;
+    }
+
+    .numbers{
+        font-size: 1.2em;
+    }
+
+}
+
+@media(max-width: 524px){
+
+    p{
+        font-size: .9em;
+    }
+
+    .inline::after{
+        top: 88px;
+        right: 99px;
+    }
+
+    .massege{
+        transform: translate(182px, 126px);
+        width: 156px;
+        height: 60px;
+        border-radius: 14px;
+    }
+
+    .massege h2{
+        font-size: 2.3em;
+    }
+
+}
+
+@media(max-width: 476px){
+    .logo{
+        transform: translate(20%, 39%);
+        padding-left: 35px;
+        padding-right: 90px;
+        padding-top: 70px;
+    }
+
+    .storage{
+        transform: translate(20%, 71%);
+        width: 57.5%;
+
+    }
+
+    p{
+        font-size: .9em;
+    }
+
+    .inline::after{
+        top: 89px;
+        right: 96px;
+    }
+
+    .numbers{
+        font-size: 1.1em;
+    }    
+
+    .massege{
+        transform: translate(162px, 126px);
+    }
+}
+
+@media(max-width: 476px){
+    .logo{
+        transform: translate(20%, 39%);
+        padding-left: 35px;
+        padding-right: 90px;
+        padding-top: 70px;
+    }
+
+    .storage{
+        transform: translate(20%, 71%);
+        width: 58.5%;
+
+    }
+
+    p{
+        font-size: .9em;
+    }
+
+    .inline::after{
+        top: 89px;
+        right: 96px;
+    }
+
+    .numbers{
+        font-size: 1.1em;
+    }    
+
+    .massege{
+        transform: translate(162px, 126px);
+    }
+}
+
+@media(max-width: 444px){
+    .logo{
+        transform: translate(16%, 20%);
+    }
+
+    .fylo{
+        margin-left: 0px;
+        width: 205px;
+        height: 63px;
+    }
+
+    .storage{
+        transform: translate(16%, 43%);
+        width: 58.5%;
+    }
+    
+    .inline::after{
+        top: 86px;
+        right: 94px;       
+    }
+
+    p{
+        font-size: .8em;
+    }
+
+    .massege{
+        transform: translate(156px, 67px);
+    }
+}
+
+@media(max-width: 400px){
+    .logo{
+        transform: translate(16%, 20%);
+        height: 165px;
+    }
+
+    .fylo{
+        margin-left: 0px;
+        width: 205px;
+        height: 63px;
+    }
+
+    .storage{
+        transform: translate(16%, 43%);
+        width: 58.5%;
+    }
+    
+    .inline::after{
+        top: 86px;
+        right: 88px;     
+    }
+
+    p{
+        font-size: .7em;
+    }
+
+    .numbers {
+        font-size: .9em;
+    }
+
+    .massege{
+        transform: translate(123px, 67px);
+        width: 149px;
+    }
+}
